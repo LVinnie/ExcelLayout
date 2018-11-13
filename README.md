@@ -4,7 +4,6 @@ ExcelLayout
 ## explain
 一个简单又好用的表格Layout
 
-效果见图
 <img src='image/1.jpg' height='500px'/>
 
 ## How to use
