@@ -6,6 +6,8 @@ ExcelLayout
 
 <img src='image/1.jpg' height='500px'/>
 
+注：由于是屏幕像素有限，所以图中表格框会展示出粗细不一的情况。真机无此现象。
+
 ## How to use
 
 ### layout:
