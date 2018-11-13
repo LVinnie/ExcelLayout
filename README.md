@@ -10,6 +10,17 @@ ExcelLayout
 
 ## How to use
 
+### attrs:
+```xml
+    <declare-styleable name="ExcelLayout">
+        <attr name="ELBorderColor" format="color" />  //边框颜色
+        <attr name="ELStartX" format="integer" />     //开始的X坐标
+        <attr name="ELStartY" format="integer" />     //开始的Y坐标
+        <attr name="ELSpanX" format="integer" />      //View所占X轴的格数
+        <attr name="ELSpanY" format="integer" />      //View所占Y轴的格数
+    </declare-styleable>
+```
+
 ### layout:
 ```xml
 <com.vinnie.weight.ExcelLayout
@@ -75,17 +86,6 @@ ExcelLayout
 
 
 </com.vinnie.weight.ExcelLayout>
-```
-
-### attrs:
-```xml
-    <declare-styleable name="ExcelLayout">
-        <attr name="ELBorderColor" format="color" />  //边框颜色
-        <attr name="ELStartX" format="integer" />     //开始的X坐标
-        <attr name="ELStartY" format="integer" />     //开始的Y坐标
-        <attr name="ELSpanX" format="integer" />      //View所占X轴的格数
-        <attr name="ELSpanY" format="integer" />      //View所占Y轴的格数
-    </declare-styleable>
 ```
 
 License
