@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.vinnie.weight.ExcelLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ELBorderColor="@color/colorPrimary">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:ELStartX="0"
+            app:ELStartY="0"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我是TextView"
+            android:gravity="center"
+            app:ELStartX="1"
+            app:ELStartY="0"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:ELStartX="2"
+            app:ELStartY="0"
+            app:ELSpanX="2"
+            app:ELSpanY="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="我是EditText"
+            app:ELStartX="0"
+            app:ELStartY="1"
+            app:ELSpanX="3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitXY"
+            app:ELStartX="3"
+            app:ELStartY="1"
+            app:ELSpanX="1"
+            app:ELSpanY="2"/>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:ELStartX="0"
+            app:ELStartY="2"
+            app:ELSpanX="2"
+            app:ELSpanY="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我是Button"
+            android:gravity="center"
+            app:ELStartX="2"
+            app:ELStartY="2"/>
+
+
+    </com.vinnie.weight.ExcelLayout>
+
+</LinearLayout>

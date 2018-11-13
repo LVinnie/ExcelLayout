@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExcelLayout">
+        <attr name="ELBorderColor" format="color" />
+        <attr name="ELStartX" format="integer" />
+        <attr name="ELStartY" format="integer" />
+        <attr name="ELSpanX" format="integer" />
+        <attr name="ELSpanY" format="integer" />
+    </declare-styleable>
+
+</resources>
