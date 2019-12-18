@@ -10,7 +10,10 @@ ExcelLayout
 
 ## How to use
 
-### attrs:
+view链接
+https://github.com/LVinnie/ExcelLayout/blob/master/app/src/main/java/com/vinnie/weight/ExcelLayout.java
+
+### attrs
 ```xml
 <declare-styleable name="ExcelLayout">
     <attr name="ELBorderColor" format="color" />  //边框颜色
@@ -19,9 +22,10 @@ ExcelLayout
     <attr name="ELSpanX" format="integer" />      //View所占X轴的格数
     <attr name="ELSpanY" format="integer" />      //View所占Y轴的格数
 </declare-styleable>
+将上述代码加入你的attrs.xml文件
 ```
 
-### layout:
+### 布局使用页面代码
 ```xml
 <com.vinnie.weight.ExcelLayout
     android:layout_width="match_parent"
