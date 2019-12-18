@@ -1,7 +1,7 @@
 ExcelLayout
 =========
 
-## explain
+## 说明
 一个简单又好用的表格Layout
 
 <img src='image/1.jpg' height='500px'/>
