@@ -8,12 +8,12 @@ ExcelLayout
 
 注：由于是模拟器在PC端的截图，所以图中表格框会展示出粗细不一的情况。真机无此现象。
 
-## How to use
+## 如何使用
 
-view链接
+导入Layout源码，链接如下
 https://github.com/LVinnie/ExcelLayout/blob/master/app/src/main/java/com/vinnie/weight/ExcelLayout.java
 
-### attrs
+### 将下面代码加入attrs.xml文件
 ```xml
 <declare-styleable name="ExcelLayout">
     <attr name="ELBorderColor" format="color" />  //边框颜色
@@ -22,7 +22,6 @@ https://github.com/LVinnie/ExcelLayout/blob/master/app/src/main/java/com/vinnie/
     <attr name="ELSpanX" format="integer" />      //View所占X轴的格数
     <attr name="ELSpanY" format="integer" />      //View所占Y轴的格数
 </declare-styleable>
-将上述代码加入你的attrs.xml文件
 ```
 
 ### 布局使用页面代码
